@@ -31,12 +31,6 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 | 🌐 **A** | Application & Society | 29 | Robotics, healthcare, Moltbook dynamics, surveys |
 | | **Total** | **54** | |
 
-### Research Timeline
-
-<p align="center">
-  <img src="assets/timeline.png" alt="OpenClaw Research Ecosystem Timeline" width="900"/>
-</p>
-
 ---
 
 ## Contents
