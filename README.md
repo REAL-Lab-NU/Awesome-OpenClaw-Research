@@ -377,28 +377,97 @@ Major security analyses from industry research teams.
 
 ## Open-Source Projects & Tools
 
+> Our unique angle: each tool is annotated with **[Paper]** tags linking to relevant research in our taxonomy. This helps researchers find implementations related to the papers they study.
+
 ### Core Platform
+
 - [openclaw/openclaw](https://github.com/openclaw/openclaw) ![Stars](https://img.shields.io/github/stars/openclaw/openclaw?style=social) - The official OpenClaw repository
 - [openclaw/skills](https://github.com/openclaw/skills) ![Stars](https://img.shields.io/github/stars/openclaw/skills?style=social) - Official skills repository
+- [ClawHub](https://clawhub.com) - Official skill marketplace (13,700+ skills) **[Papers: E1-E6]**
 
-### Security Tools
-- **ClawGuard** - Full-lifecycle agent security platform (from paper S1)
-- **PRISM** - Zero-fork runtime security layer (from paper D1)
-- **OAP** - Open Agent Passport for pre-action authorization (from paper D3)
-- **VeriGrey** - Grey-box agent validation framework (from paper D4)
-- **SkillFortify** - Formal analysis framework for skill supply chains (from paper E1)
+### Extensions & Research Frameworks
 
-### Extensions & Frameworks
-- [Gen-Verse/OpenClaw-RL](https://github.com/Gen-Verse/OpenClaw-RL) ![Stars](https://img.shields.io/github/stars/Gen-Verse/OpenClaw-RL?style=social) - Asynchronous RL training framework for OpenClaw
-- [MINT-SJTU/RoboClaw](https://github.com/MINT-SJTU/RoboClaw) ![Stars](https://img.shields.io/github/stars/MINT-SJTU/RoboClaw?style=social) - VLM-driven agentic framework for long-horizon robotic tasks
-- **ROSClaw** - ROS 2 integration framework for robotic control (from paper X2)
-- **ClawdLab** - Autonomous scientific research platform (from paper X3)
-- **NemoClaw** - NVIDIA's enterprise security wrapper (announced GTC 2026)
+- [Gen-Verse/OpenClaw-RL](https://github.com/Gen-Verse/OpenClaw-RL) ![Stars](https://img.shields.io/github/stars/Gen-Verse/OpenClaw-RL?style=social) - Asynchronous RL training framework **[Paper: X1]**
+- [MINT-SJTU/RoboClaw](https://github.com/MINT-SJTU/RoboClaw) ![Stars](https://img.shields.io/github/stars/MINT-SJTU/RoboClaw?style=social) - VLM-driven agentic framework for long-horizon robotic tasks **[Paper: RoboClaw]**
+- [NVIDIA/NemoClaw](https://github.com/NVIDIA/NemoClaw) ![Stars](https://img.shields.io/github/stars/NVIDIA/NemoClaw?style=social) - Enterprise security wrapper with NVIDIA OpenShell runtime **[Industry: NVIDIA GTC 2026]**
+- **ROSClaw** - ROS 2 integration framework for robotic control **[Paper: X2]**
+- **ClawdLab** - Autonomous scientific research platform with PI-led governance **[Paper: X3]**
+- **SkillNet** - Open infrastructure for creating and evaluating 200,000+ AI skills **[Paper: E5]**
 
-### Skill Ecosystem
-- [ClawHub](https://clawhub.com) - Official skill marketplace (13,700+ skills)
-- **SkillNet** - Open infrastructure for creating and evaluating AI skills (from paper E5)
-- **SkillProbe** - Multi-agent skill auditing system (from paper E2)
+### Security & Auditing Tools
+
+*Tools for securing OpenClaw deployments — directly relevant to papers in [Section 3: Security & Trust](#3-security--trust).*
+
+- **ClawGuard** - Full-lifecycle agent security platform with FASA architecture **[Paper: S1]**
+- **PRISM** - Zero-fork, defense-in-depth runtime security layer across 10 lifecycle hooks **[Paper: D1]**
+- **OAP** - Open Agent Passport for deterministic pre-action authorization (53ms latency) **[Paper: D3]**
+- **VeriGrey** - Grey-box agent validation using tool invocation coverage **[Paper: D4]**
+- **SkillFortify** - Formal analysis framework with DY-Skill attacker model **[Paper: E1]**
+- **SkillProbe** - Multi-agent "Skills-for-Skills" auditing system **[Paper: E2]**
+- [prompt-security/clawsec](https://github.com/prompt-security/clawsec) ![Stars](https://img.shields.io/github/stars/prompt-security/clawsec?style=social) - Drift detection, automated audits, skill integrity checks **[Related: S2, E4]**
+- [ClawSecure/clawsecure-openclaw-security](https://github.com/ClawSecure/clawsecure-openclaw-security) ![Stars](https://img.shields.io/github/stars/ClawSecure/clawsecure-openclaw-security?style=social) - 3-Layer Audit Protocol, OWASP ASI coverage **[Related: S3, S4]**
+- [adversa-ai/secureclaw](https://github.com/adversa-ai/secureclaw) ![Stars](https://img.shields.io/github/stars/adversa-ai/secureclaw?style=social) - OWASP-aligned security plugin **[Related: S5]**
+- [adibirzu/openclaw-security-monitor](https://github.com/adibirzu/openclaw-security-monitor) ![Stars](https://img.shields.io/github/stars/adibirzu/openclaw-security-monitor?style=social) - Detects ClawHavoc, AMOS stealer, CVE-2026-25253, memory poisoning **[Related: E1, A4, Industry]**
+- [nearai/ironclaw](https://github.com/nearai/ironclaw) ![Stars](https://img.shields.io/github/stars/nearai/ironclaw?style=social) - Privacy/security-focused Rust implementation **[Referenced in: S5]**
+- [ucsandman/dashclaw](https://github.com/ucsandman/dashclaw) ![Stars](https://img.shields.io/github/stars/ucsandman/dashclaw?style=social) - Governance policies, HITL approvals, risk scoring, audit trails **[Related: D2, D3]**
+
+### Memory & Context Systems
+
+*Highly relevant to memory poisoning attacks [Paper: A4] and agent learning dynamics [Papers: M3, M4].*
+
+- [Contextable/openclaw-memory-graphiti](https://github.com/Contextable/openclaw-memory-graphiti) ![Stars](https://img.shields.io/github/stars/Contextable/openclaw-memory-graphiti?style=social) - Two-layer memory: SpiceDB authorization + Graphiti knowledge graph
+- [coolmanns/openclaw-memory-architecture](https://github.com/coolmanns/openclaw-memory-architecture) ![Stars](https://img.shields.io/github/stars/coolmanns/openclaw-memory-architecture?style=social) - 12-layer memory architecture with knowledge graph (3K+ facts), 7ms GPU semantic search
+- [alibaizhanov/openclaw-mengram](https://github.com/alibaizhanov/openclaw-mengram) ![Stars](https://img.shields.io/github/stars/alibaizhanov/openclaw-mengram?style=social) - Semantic, episodic & procedural memory with Graph RAG
+- [adoresever/graph-memory](https://github.com/adoresever/graph-memory) ![Stars](https://img.shields.io/github/stars/adoresever/graph-memory?style=social) - Knowledge graph context engine; 75% context compression
+- [Martian-Engineering/lossless-claw](https://github.com/Martian-Engineering/lossless-claw) ![Stars](https://img.shields.io/github/stars/Martian-Engineering/lossless-claw?style=social) - Lossless context-management plugin
+- [supermemoryai/openclaw-supermemory](https://github.com/supermemoryai/openclaw-supermemory) ![Stars](https://img.shields.io/github/stars/supermemoryai/openclaw-supermemory?style=social) - Long-term memory extension
+- [volcengine/OpenViking](https://github.com/volcengine/OpenViking) ![Stars](https://img.shields.io/github/stars/volcengine/OpenViking?style=social) - Context database for AI agents via file system paradigm
+
+### Deployment & Infrastructure
+
+*Relevant to edge deployment security analysis [Paper: I1] and the 40,000+ exposed instances finding.*
+
+- [coollabsio/openclaw](https://github.com/coollabsio/openclaw) ![Stars](https://img.shields.io/github/stars/coollabsio/openclaw?style=social) - Fully featured & automated Docker images
+- [khal3d/openclaw](https://github.com/khal3d/openclaw) ![Stars](https://img.shields.io/github/stars/khal3d/openclaw?style=social) - Docker and Kubernetes (Helm) deployment
+- [cloudflare/moltworker](https://github.com/cloudflare/moltworker) ![Stars](https://img.shields.io/github/stars/cloudflare/moltworker?style=social) - Run OpenClaw on Cloudflare Workers (serverless)
+- [serhanekicii/openclaw-helm](https://github.com/serhanekicii/openclaw-helm) ![Stars](https://img.shields.io/github/stars/serhanekicii/openclaw-helm?style=social) - Helm chart for Kubernetes deployments
+- [serithemage/serverless-openclaw](https://github.com/serithemage/serverless-openclaw) ![Stars](https://img.shields.io/github/stars/serithemage/serverless-openclaw?style=social) - AWS serverless deployment with low idle cost
+- [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel) ![Stars](https://img.shields.io/github/stars/1Panel-dev/1Panel?style=social) - Server panel with one-click OpenClaw deployment
+
+### Dashboards & Management
+
+- [grp06/openclaw-studio](https://github.com/grp06/openclaw-studio) ![Stars](https://img.shields.io/github/stars/grp06/openclaw-studio?style=social) - Clean web dashboard for agent management
+- [abhi1693/openclaw-mission-control](https://github.com/abhi1693/openclaw-mission-control) ![Stars](https://img.shields.io/github/stars/abhi1693/openclaw-mission-control?style=social) - Multi-agent orchestration dashboard
+- [tugcantopaloglu/openclaw-dashboard](https://github.com/tugcantopaloglu/openclaw-dashboard) ![Stars](https://img.shields.io/github/stars/tugcantopaloglu/openclaw-dashboard?style=social) - Real-time monitoring with auth, TOTP MFA, cost tracking
+- [ValueCell-ai/ClawX](https://github.com/ValueCell-ai/ClawX) ![Stars](https://img.shields.io/github/stars/ValueCell-ai/ClawX?style=social) - Desktop GUI for managing agents without terminal
+- [vivekchand/clawmetry](https://github.com/vivekchand/clawmetry) ![Stars](https://img.shields.io/github/stars/vivekchand/clawmetry?style=social) - Observability: token costs, session drift, memory alerts
+
+### Channel Integrations
+
+- [4Players/openclaw-docker](https://github.com/4Players/openclaw-docker) ![Stars](https://img.shields.io/github/stars/4Players/openclaw-docker?style=social) - Multi-channel Docker image (WhatsApp, Telegram, Discord, Slack)
+- [dingxiang-me/OpenClaw-Wechat](https://github.com/dingxiang-me/OpenClaw-Wechat) ![Stars](https://img.shields.io/github/stars/dingxiang-me/OpenClaw-Wechat?style=social) - WeChat/WeCom integration with streaming support
+- [larksuite/openclaw-lark](https://github.com/larksuite/openclaw-lark) ![Stars](https://img.shields.io/github/stars/larksuite/openclaw-lark?style=social) - Official Feishu/Lark channel plugin
+- [BytePioneer-AI/openclaw-china](https://github.com/BytePioneer-AI/openclaw-china) ![Stars](https://img.shields.io/github/stars/BytePioneer-AI/openclaw-china?style=social) - China-focused plugin pack (Feishu, DingTalk, QQ, WeChat)
+- [onfabric/waclaw](https://github.com/onfabric/waclaw) ![Stars](https://img.shields.io/github/stars/onfabric/waclaw?style=social) - Self-hosted WhatsApp router for agent fleets
+
+### Alternative Clients & Runtimes
+
+- [HKUDS/nanobot](https://github.com/HKUDS/nanobot) ![Stars](https://img.shields.io/github/stars/HKUDS/nanobot?style=social) - Ultra-lightweight OpenClaw-style alternative
+- [moltis-org/moltis](https://github.com/moltis-org/moltis) ![Stars](https://img.shields.io/github/stars/moltis-org/moltis?style=social) - Rust-native runtime with sandboxing and voice support
+- [AidanPark/openclaw-android](https://github.com/AidanPark/openclaw-android) ![Stars](https://img.shields.io/github/stars/AidanPark/openclaw-android?style=social) - Run OpenClaw on Android
+- [HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam) ![Stars](https://img.shields.io/github/stars/HKUDS/ClawTeam?style=social) - Agent swarm automation framework
+- [htlin222/mini-claw](https://github.com/htlin222/mini-claw) ![Stars](https://img.shields.io/github/stars/htlin222/mini-claw?style=social) - Minimalist lightweight personal AI assistant
+
+### Domain-Specific Skills
+
+- [FreedomIntelligence/OpenClaw-Medical-Skills](https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills) ![Stars](https://img.shields.io/github/stars/FreedomIntelligence/OpenClaw-Medical-Skills?style=social) - Medical skills library **[Related: P1]**
+- [ClawBio/ClawBio](https://github.com/ClawBio/ClawBio) ![Stars](https://img.shields.io/github/stars/ClawBio/ClawBio?style=social) - Bioinformatics-native skill library
+- [BlockRunAI/ClawRouter](https://github.com/BlockRunAI/ClawRouter) ![Stars](https://img.shields.io/github/stars/BlockRunAI/ClawRouter?style=social) - LLM router with model selection and cost control **[Related: A1 (token costs)]**
+
+### Learning Resources
+
+- [datawhalechina/hello-claw](https://github.com/datawhalechina/hello-claw) ![Stars](https://img.shields.io/github/stars/datawhalechina/hello-claw?style=social) - Structured Chinese tutorial for OpenClaw
+- [centminmod/explain-openclaw](https://github.com/centminmod/explain-openclaw) ![Stars](https://img.shields.io/github/stars/centminmod/explain-openclaw?style=social) - Multi-AI documentation covering architecture, security, deployment
 
 ---
 
