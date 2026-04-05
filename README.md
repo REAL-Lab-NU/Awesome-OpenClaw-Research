@@ -264,24 +264,24 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 | Organization | Report | Date | Key Finding |
 |:-------------|:-------|:----:|:------------|
-| **Trend Micro** | Viral AI, Invisible Risks | Feb 2026 | TrendAI Digital Assistant Framework mapping |
-| **Trend Micro** | Malicious Skills Distribute AMOS Stealer | Feb 2026 | AMOS stealer via SKILL.md across 39 skills |
-| **Trend Micro** | CISOs in a Pinch | Feb 2026 | "Lethal Trifecta + Persistence" concept |
-| **Trend Micro** | TrendAI Secures the OpenClaw Era | Mar 2026 | Agentic Governance Gateway announcement |
-| **Microsoft** | Running OpenClaw Safely | Feb 2026 | "Not appropriate for standard workstations" |
-| **NVIDIA** | NemoClaw at GTC 2026 | Mar 2026 | Open-source security wrapper with OpenShell |
-| **Oasis Security** | ClawJacked | Feb 2026 | WebSocket takeover; patched in 24h |
-| **Koi / Repello AI** | ClawHavoc Campaign | Feb 2026 | 824+ malicious skills via CVE-2026-25253 |
-| **Kaspersky** | OpenClaw Unsafe for Use | Feb 2026 | 512 vulns (8 critical); ~1K exposed instances |
-| **Cisco AI** | OpenClaw Skill Audit | Feb 2026 | 26% of 31K skills vulnerable |
-| **Sophos** | Security Analysis | 2026 | Exposed instances; sandbox escape |
-| **Snyk Labs** | Dependency Analysis | 2026 | Supply chain risk in skill dependencies |
-| **JFrog** | Package Security | 2026 | Malicious package detection |
-| **SecurityScorecard** | Risk Assessment | 2026 | Enterprise deployment risk guidance |
-| **Hunt.io** | Exposure Report | 2026 | 30K-135K+ exposed instances |
-| **Antiy CERT** | ClawHavoc Campaign Analysis | Feb 2026 | 1,184 malicious skills; ClickFix social engineering; AMOS stealer |
-| **Zenity Labs** | OpenClaw or OpenDoor? Indirect Prompt Injection | Jan 2026 | Backdoor installation via messaging app integration |
-| **Giskard** | OpenClaw Data Leakage and Prompt Injection | Feb 2026 | Live exploitation of misconfigured OpenClaw deployments |
+| **Trend Micro** | [Viral AI, Invisible Risks](https://www.trendmicro.com/en_us/research/26/b/what-openclaw-reveals-about-agentic-assistants.html) | Feb 2026 | TrendAI Digital Assistant Framework mapping |
+| **Trend Micro** | [Malicious Skills Distribute AMOS Stealer](https://www.trendmicro.com/en_us/research/26/b/malicious-openclaw-skills-amos-stealer.html) | Feb 2026 | AMOS stealer via SKILL.md across 39 skills |
+| **Trend Micro** | [CISOs in a Pinch](https://www.trendmicro.com/en_us/research/26/c/cisos-in-a-pinch-a-security-analysis-openclaw.html) | Feb 2026 | "Lethal Trifecta + Persistence" concept |
+| **Trend Micro** | [TrendAI Secures the OpenClaw Era](https://www.trendmicro.com/en_us/research/26/c/trendai-secures-openclaw.html) | Mar 2026 | Agentic Governance Gateway announcement |
+| **Microsoft** | [Running OpenClaw Safely](https://www.microsoft.com/en-us/security/blog/2026/02/19/running-openclaw-safely/) | Feb 2026 | "Not appropriate for standard workstations" |
+| **NVIDIA** | [NemoClaw at GTC 2026](https://developer.nvidia.com/blog/nemoclaw-enterprise-security-openclaw/) | Mar 2026 | Open-source security wrapper with OpenShell |
+| **Oasis Security** | [ClawJacked](https://www.oasis.security/resources/blog/clawhacked-openclaw-vulnerability) | Feb 2026 | WebSocket takeover; patched in 24h |
+| **Koi / Repello AI** | [ClawHavoc Campaign](https://www.koi.ai/blog/clawhavoc-341-malicious-clawedbot-skills-found-by-the-bot-they-were-targeting) | Feb 2026 | 824+ malicious skills via CVE-2026-25253 |
+| **Kaspersky** | [OpenClaw Unsafe for Use](https://www.kaspersky.co.in/blog/openclaw-vulnerabilities-exposed/30164/) | Feb 2026 | 512 vulns (8 critical); ~1K exposed instances |
+| **Cisco AI** | [OpenClaw Skill Audit](https://blog.talosintelligence.com/openclaw-skill-audit/) | Feb 2026 | 26% of 31K skills vulnerable |
+| **Sophos** | [OpenClaw Security Analysis](https://www.sophos.com/en-us/blog/the-openclaw-experiment-is-a-warning-shot-for-enterprise-ai-security) | 2026 | Exposed instances; sandbox escape |
+| **Snyk Labs** | [From SKILL.md to Shell Access](https://snyk.io/articles/skill-md-shell-access/) | 2026 | 1,467 malicious skills; 3-line Markdown → shell |
+| **JFrog** | [OpenClaw Package Security](https://jfrog.com/blog/openclaw-package-security/) | 2026 | Malicious package detection |
+| **SecurityScorecard** | [OpenClaw Risk Assessment](https://securityscorecard.com/research/openclaw-risk/) | 2026 | Enterprise deployment risk guidance |
+| **Hunt.io** | [OpenClaw Exposure Report](https://hunt.io/blog/openclaw-exposed-instances) | 2026 | 30K-135K+ exposed instances |
+| **Antiy CERT** | [ClawHavoc Campaign Analysis](https://www.antiy.net/p/clawhavoc-analysis-of-large-scale-poisoning-campaign-targeting-the-openclaw-skill-market-for-ai-agents/) | Feb 2026 | 1,184 malicious skills; ClickFix; AMOS stealer |
+| **Zenity Labs** | [OpenClaw or OpenDoor?](https://labs.zenity.io/p/openclaw-or-opendoor-indirect-prompt-injection-makes-openclaw-vulnerable-to-backdoors-and-much-more) | Jan 2026 | Backdoor via messaging app integration |
+| **Giskard** | [OpenClaw Data Leakage](https://www.giskard.ai/knowledge/openclaw-security-vulnerabilities-include-data-leakage-and-prompt-injection-risks) | Feb 2026 | Live exploitation of misconfigured deployments |
 
 <p align="right"><a href="#contents">Back to Top</a></p>
 
