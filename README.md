@@ -79,7 +79,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 </thead>
 <tbody>
 <tr><td>OpenClaw-RL: Train Any Agent Simply by Talking</td><td align="center">Mar 2026</td><td>Async RL from live interaction signals; combines evaluative and directive rewards</td><td align="center"><a href="https://arxiv.org/abs/2603.10165">Paper</a> <a href="https://github.com/Gen-Verse/OpenClaw-RL"><img src="https://img.shields.io/github/stars/Gen-Verse/OpenClaw-RL?style=social" alt="Stars"></a></td></tr>
-<tr><td>OpenCLAW-P2P: A Decentralized Framework for Collective AI Intelligence</td><td align="center">Mar 2026</td><td>Decentralized agent network with DHT, federated learning, and formal verification</td><td align="center"><a href="https://www.researchgate.net/publication/401449080">Paper</a></td></tr>
+<tr><td>OpenCLAW-P2P: A Decentralized Framework for Collective AI Intelligence Towards AGI</td><td align="center">Feb 2026</td><td>Decentralized agent network with DHT, federated learning, and formal verification</td><td align="center"><a href="https://github.com/Agnuxo1/OpenCLAW-P2P">GitHub</a></td></tr>
 <tr><td>AgentOS: From Application Silos to a NL-Driven Data Ecosystem</td><td align="center">Mar 2026</td><td>Personal Agent OS replacing GUI with NL interaction; cites OpenClaw as exemplar</td><td align="center"><a href="https://arxiv.org/abs/2603.08938">Paper</a></td></tr>
 <tr><td>MetaClaw: Just Talk — An Agent That Meta-Learns and Evolves in the Wild</td><td align="center">Mar 2026</td><td>Continual meta-learning on OpenClaw; dynamic skill synthesis and policy optimization</td><td align="center"><a href="https://arxiv.org/abs/2603.17187">Paper</a></td></tr>
 </tbody>
