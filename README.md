@@ -11,14 +11,14 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Papers-59+-blue?style=for-the-badge" alt="Papers"/>
+  <img src="https://img.shields.io/badge/Papers-60+-blue?style=for-the-badge" alt="Papers"/>
   <img src="https://img.shields.io/badge/Industry%20Reports-18+-orange?style=for-the-badge" alt="Reports"/>
   <img src="https://img.shields.io/badge/Datasets-11-green?style=for-the-badge" alt="Datasets"/>
   <img src="https://img.shields.io/badge/Taxonomy-PSEA%204%20Layers-purple?style=for-the-badge" alt="Taxonomy"/>
   <img src="https://img.shields.io/badge/Last%20Updated-Apr%202026-red?style=for-the-badge" alt="Updated"/>
 </p>
 
-OpenClaw — the open-source, self-hosted AI agent platform created by Peter Steinberger (evolving from Clawdbot → Moltbot → OpenClaw on January 29, 2026) — has generated **59+ academic papers** and **20+ major industry reports** in under three months. This repository organizes the research landscape using a four-layer **PSEA (Platform–Security–Ecosystem–Application)** taxonomy.
+OpenClaw — the open-source, self-hosted AI agent platform created by Peter Steinberger (evolving from Clawdbot → Moltbot → OpenClaw on January 29, 2026) — has generated **60+ academic papers** and **20+ major industry reports** in under three months. This repository organizes the research landscape using a four-layer **PSEA (Platform–Security–Ecosystem–Application)** taxonomy.
 
 ---
 
@@ -27,10 +27,10 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 | Layer | Category | Papers | Sub-topics |
 |:-----:|:---------|:------:|:-----------|
 | 🔧 **P** | Platform | 8 | Core architecture, RL training, skill quality |
-| 🛡️ **S** | Security | 21 | Threat taxonomies, attacks, defenses, supply chain |
+| 🛡️ **S** | Security | 22 | Threat taxonomies, attacks, defenses, supply chain |
 | 🌐 **E** | Ecosystem | 22 | Moltbook measurement, safety dynamics, learning |
 | 🚀 **A** | Application | 8 | Robotics, healthcare, education, science |
-| | **Total** | **59** | |
+| | **Total** | **60** | |
 
 ---
 
@@ -103,9 +103,9 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 ## 🛡️ Security
 
-*Threats, attacks, defenses, and supply chain security. (21 papers + industry reports)*
+*Threats, attacks, defenses, and supply chain security. (22 papers + industry reports)*
 
-### 🔍 Threat Analysis & Taxonomies (7)
+### 🔍 Threat Analysis & Taxonomies (8)
 
 <table>
 <colgroup><col style="width:40%"><col style="width:10%"><col style="width:38%"><col style="width:12%"></colgroup>
@@ -118,6 +118,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 <tr><td>A Trajectory-Based Safety Audit of Clawdbot</td><td align="center">Feb 2026</td><td>Trajectory-level safety evaluation; complete failure on intent misunderstanding</td><td align="center"><a href="https://arxiv.org/abs/2602.14364">Paper</a> <a href="https://github.com/tychenn/clawdbot_report"><img src="https://img.shields.io/github/stars/tychenn/clawdbot_report?style=social" alt="Stars"></a></td></tr>
 <tr><td>From Assistant to Double Agent (PASB)</td><td align="center">Feb 2026</td><td>First end-to-end benchmark for personalized agent security</td><td align="center"><a href="https://arxiv.org/abs/2602.08412">Paper</a> <a href="https://github.com/AstorYH/PASB"><img src="https://img.shields.io/github/stars/AstorYH/PASB?style=social" alt="Stars"></a></td></tr>
 <tr><td>ClawTrap: MITM-Based Red-Teaming Framework</td><td align="center">Mar 2026</td><td>First network-layer red-teaming framework for agent systems</td><td align="center"><a href="https://arxiv.org/abs/2603.18762">Paper</a></td></tr>
+<tr><td>Your Agent, Their Asset: Real-World Safety Analysis of OpenClaw</td><td align="center">Apr 2026</td><td>CIK taxonomy (Capability/Identity/Knowledge); ASR 24.6% → 64–74% under single-dimension poisoning</td><td align="center"><a href="https://arxiv.org/abs/2604.04759">Paper</a></td></tr>
 </tbody>
 </table>
 
