@@ -28,8 +28,8 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 |:-----:|:---------|:------:|:-----------|
 | 🔧 **P** | Platform | 9 | Core architecture, RL training, skill quality, harness engineering |
 | 🛡️ **S** | Security | 23 | Threat taxonomies, attacks, defenses, supply chain |
-| 🌐 **E** | Ecosystem | 22 | Moltbook measurement, safety dynamics, learning |
-| 🚀 **A** | Application | 12 | Robotics, wearable, healthcare, education, science |
+| 🌐 **S** | Societies | 22 | Moltbook measurement, safety dynamics, learning |
+| 🚀 **D** | Deployment | 12 | Robotics, wearable, healthcare, education, science |
 | | **Total** | **66** | |
 
 ---
@@ -45,12 +45,12 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
   - [Adversarial Attacks](#-adversarial-attacks-4)
   - [Defensive Architectures](#-defensive-architectures-6)
   - [Supply Chain Security](#-supply-chain-security-4)
-- [🌐 Ecosystem](#-ecosystem)
+- [🌐 Societies](#-societies)
   - [Platform Measurement & Network Structure](#-platform-measurement--network-structure-12)
   - [Safety Dynamics & Norms](#-safety-dynamics--norms-5)
   - [Learning & Coordination](#-learning--coordination-4)
   - [Ecosystem Perspectives](#-ecosystem-perspectives-4)
-- [🚀 Application](#-application)
+- [🚀 Deployment](#-deployment)
 
 ### :file_folder: Resources
 - [:shield: Industry Security Reports](#shield-industry-security-reports)
@@ -169,7 +169,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 ---
 
-## 🌐 Ecosystem
+## 🌐 Societies
 
 *What happens when agents interact at scale — Moltbook social dynamics, safety phenomena, and ecosystem perspectives. (22 papers)*
 
@@ -242,7 +242,7 @@ OpenClaw — the open-source, self-hosted AI agent platform created by Peter Ste
 
 ---
 
-## 🚀 Application
+## 🚀 Deployment
 
 *Where OpenClaw is deployed in specific domains. (12 papers)*
 
