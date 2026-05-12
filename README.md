@@ -14,7 +14,6 @@
   <img src="https://img.shields.io/badge/Papers-74-blue?style=for-the-badge" alt="Papers"/>
   <img src="https://img.shields.io/badge/Benchmarks-23-teal?style=for-the-badge" alt="Benchmarks"/>
   <img src="https://img.shields.io/badge/Industry%20Reports-18+-orange?style=for-the-badge" alt="Reports"/>
-  <img src="https://img.shields.io/badge/Taxonomy-PSEA%204%20Layers-purple?style=for-the-badge" alt="Taxonomy"/>
   <img src="https://img.shields.io/badge/Last%20Updated-May%202026-red?style=for-the-badge" alt="Updated"/>
 </p>
 
